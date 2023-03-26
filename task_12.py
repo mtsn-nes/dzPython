@@ -1,0 +1,11 @@
+a = float(input())
+b = float(input())
+r = float(input())
+v = int(input())
+p = int(input())
+print(round(a * b, 2))
+rr = (a * b / r) * (1 + p/100)
+print(round(rr, 2))
+t = int(rr // v) + 1
+print(t)
+print(round(t * v - rr, 2))
